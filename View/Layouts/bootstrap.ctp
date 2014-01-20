@@ -15,6 +15,7 @@
         <?= $this->Html->css('bootstrap.min') ?>
         <?= $this->Html->css('bootstrap-responsive.min') ?>
         <?= $this->Html->css('/twitter_bootstrap/font-awesome/css/font-awesome.min') ?>
+        <?= $this->Html->css('/twitter_bootstrap/social-buttons/social-buttons') ?>
         <!--[if IE 7]>
             <link rel="stylesheet" href="/twitter_bootstrap/font-awesome/css/font-awesome-ie7.min.css">
         <![endif]-->

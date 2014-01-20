@@ -4,3 +4,6 @@
 [submodule "webroot/font-awesome"]
 	path = webroot/font-awesome
 	url = https://github.com/FortAwesome/Font-Awesome.git
+[submodule "webroot/social-buttons"]
+	path = webroot/social-buttons
+	url = https://github.com/noizwaves/bootstrap-social-buttons.git
