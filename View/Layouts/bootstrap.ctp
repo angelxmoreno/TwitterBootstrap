@@ -50,8 +50,7 @@
                         <a class="brand" href="/"><?= Configure::read('TwitterBootstrap.AppName') ?></a>
                         <div class="nav-collapse">
                             <ul class="nav">
-                                <? if(!isset($navLinks))?>
-                                <? $navLinks = array(); ?>
+                                <? if(!isset($navLinks)) $navLinks = array(); ?>
                                 <? foreach ($navLinks as $name => $link) : ?>
                                 <? if (!isset($link['auth']) || ((bool) $link['auth'] == (bool) AuthComponent::user())) : ?>
                                 <li<?= ($this->here == $this->Html->url($link['url'])) ? ' class="active"' : '' ?>>
