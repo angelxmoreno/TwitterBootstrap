@@ -14,7 +14,10 @@
         <?= $this->Html->css('/twitter_bootstrap/css/styles') ?>
         <?= $this->Html->css('bootstrap.min') ?>
         <?= $this->Html->css('bootstrap-responsive.min') ?>
-
+        <?= $this->Html->css('/twitter_bootstrap/font-awesome/css/font-awesome.min') ?>
+        <!--[if IE 7]>
+            <link rel="stylesheet" href="/twitter_bootstrap/font-awesome/css/font-awesome-ie7.min.css">
+        <![endif]-->
         <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>

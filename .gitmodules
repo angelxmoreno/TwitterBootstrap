@@ -1,3 +1,6 @@
 [submodule "Vendor/bootstrap"]
 	path = Vendor/bootstrap
 	url = https://github.com/twbs/bootstrap.git
+[submodule "webroot/font-awesome"]
+	path = webroot/font-awesome
+	url = https://github.com/FortAwesome/Font-Awesome.git
