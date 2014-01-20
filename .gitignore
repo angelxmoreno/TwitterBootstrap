@@ -1,1 +1,2 @@
 webroot/*
+!webroot/css/styles.css
