@@ -75,7 +75,7 @@
         </footer>
         <!-- Le javascript
     ================================================== -->
-        <?= $this->Html->script('jquery-1.10.2.min') ?>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <?= $this->Html->script('bootstrap.min') ?>
         <?= $this->fetch('script') ?>
         <!-- Placed at the end of the document so the pages load faster -->
