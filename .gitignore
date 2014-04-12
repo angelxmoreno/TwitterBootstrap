@@ -1,3 +1,4 @@
+.DS_Store
 #webroot/*
 !webroot/css/styles.css
 !webroot/font-awesome/*
